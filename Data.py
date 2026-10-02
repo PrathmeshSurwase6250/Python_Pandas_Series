@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-
+import matplotlib.pyplot as plt
 # data= pd.read_csv('./Series/Datasets/subs.csv' )
 # print(type(data))
 data= pd.read_csv('./Series/Datasets/subs.csv'  ) 
@@ -56,3 +56,7 @@ print(data.min())
 print(data.max())
 print(data.describe())
 print(bollywood.loc["Why Cheat India"])
+
+movies  = bollywood.value_counts().head(20)
+movies.plot(kind='bar',color='orange')
+plt.show()
