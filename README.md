@@ -135,7 +135,7 @@ The repository includes:
 - Python 🐍
 - Pandas 🐼
 - NumPy
-- Jupyter / VS Code
+- VS Code
 - CSV datasets
 
 ---
